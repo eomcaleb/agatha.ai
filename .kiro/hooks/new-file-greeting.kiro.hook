@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "New File Greeting",
+  "description": "Says hi when a new file is created in the workspace",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      "**/*"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A new file has been detected in the workspace. Say hi to greet the user about this new file creation."
+  }
+}

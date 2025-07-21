@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "21-dev": {
+      "command": "C:\\Users\\eomca\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\uvx.exe",
+      "args": ["21-dev-mcp@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
